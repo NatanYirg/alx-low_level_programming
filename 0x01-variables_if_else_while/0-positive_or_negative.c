@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>	
+#include <stdio.h>
 /**
  * main - main block
  * Description-geta random nuber and print the number
@@ -13,9 +13,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n>0)
+	if (n > 0)
 		printf("%i is positive\n", n);
-	else if(n < 0)
+	else if (n < 0)
 		printf("%i is negative\n", n);
 	else
 		printf("%i is zero\n", n);
