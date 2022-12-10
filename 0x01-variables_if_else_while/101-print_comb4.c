@@ -7,36 +7,29 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
+	int o = '0';
+	int t = '0';
+	int h = '0';
 
-	while (e < 10)
+	for (h = '0'; h <= '9'; h++)
 	{
-		d = 0;
-		while (d < 10)
+		for (t = '0'; t <= '9'; t++)
 		{
-			c = 0;
-			while (c < 0)
+			for (o = '0'; o <= '9'; o++)
 			{
-				if (c != d && d != e && e < d && d < c)
+				if (!((o == t) || (t == h) || (t > o) || (h > t)))
 				{
-					putchar('0' + e);
-					putchar('0' + d);
-					putchar('0' + c);
-
-					if (c + d + e != 9 + 8 + 7)
+					putchar(h);
+					putchar(t);
+					putchar(o);
+					if (!(o == '9' && h == '7' && t == '8'))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-
-				c++;
 			}
-			d++;
 		}
-		e++;
 	}
 	putchar('\n');
 	return (0);
