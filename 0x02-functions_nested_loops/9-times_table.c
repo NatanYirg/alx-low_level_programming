@@ -4,7 +4,7 @@
  * times_table - print the nine tables
  */
 
-void void times_table(void)
+void times_table(void)
 {
 	int num, mul, prod;
 
