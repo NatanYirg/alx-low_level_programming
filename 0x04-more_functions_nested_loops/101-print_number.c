@@ -2,7 +2,7 @@
 
 /**
  * print_number - print
- * @n: integer
+ * @n: intiger
  * Return: always
  */
 
