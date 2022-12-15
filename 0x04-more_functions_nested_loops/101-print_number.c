@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: integer.
- * Return: always.
+ * print_number - print
+ * @n: integer
+ * Return: always
  */
 
 void print_number(int n)
