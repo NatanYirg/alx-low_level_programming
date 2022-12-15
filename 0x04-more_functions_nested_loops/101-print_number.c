@@ -2,8 +2,8 @@
 
 /**
  * print_number - prints an integer.
- * @n: input integer.
- * Return: no return.
+ * @n: integer.
+ * Return: always.
  */
 
 void print_number(int n)
