@@ -1,8 +1,8 @@
 #include "main"
 /**
- * _atoi - Entry point
- * @s: input
- * Return: Always 0 (Success)
+ * _atoi function that convert a string to an integer
+ * @s: string to convert
+ * Return: int
  */
 int _atoi(char *s)
 {
@@ -20,7 +20,7 @@ int _atoi(char *s)
 		{
 		if (n >= 0)
 		{
-			n = n * 10 -(s[i] - '0');
+			n = n * 10 - (s[i] - '0');
 			i++
 		}
 		else
