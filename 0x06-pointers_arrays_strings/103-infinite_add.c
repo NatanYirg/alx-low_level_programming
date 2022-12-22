@@ -56,7 +56,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
-	if (ten && r_index >= 0)
+	if (tens && r_index >= 0)
 	{
 		*(r + r_index) = (tens % 10) + '0';
 		return (r + r_index);
