@@ -1,5 +1,8 @@
 #include "main.h"
 
+char *add_strings(char *n1, char *n2, char *r, int r_index);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
 /**
 * infinite_add - C function that adds two numbers stored
 *in strings to a buffer.
@@ -16,9 +19,6 @@
 *Return:returns pointer to result
 */
 
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
-{
-}
 
 /**
 * add_strings - Adds the numbers stored in two strings.
