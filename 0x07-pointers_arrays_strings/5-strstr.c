@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h.h>
 #include "main.h"
 
 /**
@@ -26,5 +26,3 @@ char *_strstr(char *haystack, char *needle)
 
 	return (NULL);
 }
-
-
