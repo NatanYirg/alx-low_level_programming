@@ -4,11 +4,11 @@
 /**
  * main - function
  * @argc: length of argv
- * @argv: number of argument 
+ * @argv: number of argument
  * Return: Always 0
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int position, total, change, aux;
 	int coins[] = {25, 10, 5, 2, 1};
@@ -42,6 +42,6 @@ int main (int argc, char *argv[])
 
 	}
 
-	printf("d%\n", change);
+	printf("%d\n", change);
 	return (0);
 }
