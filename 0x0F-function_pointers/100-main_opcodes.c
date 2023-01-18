@@ -1,11 +1,11 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - prints its own opcodes.
- * @argc: amount of args
+ * @argc: number of arguments
  * @argv: array arguments
- * Return: 1 if an error occurred, 0 otherwise
+ * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	bytes = atoi(argv[1]);
 
-	if (byte < 0)
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
