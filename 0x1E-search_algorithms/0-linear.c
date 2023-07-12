@@ -1,6 +1,6 @@
 /*
  * File: 0-linear.c
- * Auth: Nathan Yirgalem
+ * Auth: Brennan D Baraban
  */
 
 #include "search_algos.h"
